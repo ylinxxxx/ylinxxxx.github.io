@@ -1,0 +1,103 @@
+body{
+<!--  css代码中如果值为0的时候可以不加单位  -->
+
+  margin: 0px;
+  /* 设置body字体的颜色 */
+  background-color: #333333;
+
+ /* 设置前景色 */
+  color: #fff;
+
+ /* 通过设置text-alight使用内部的元素居中显示 */
+  text-align: center;
+}
+.container{
+
+/* 设置距离顶部值10*/
+margin-top: 30px;
+text-align: left;
+
+
+
+}
+
+
+
+img{
+  width: 80%;
+  /* 图片上下之间的间距10*/
+  margin-top: 10px;
+}
+
+
+.touxiang{
+
+/* 设置头像圆角显示*/
+  border-radius: 50%;
+}
+
+
+/* p 标签表示段落*/
+.content p{
+  display: inline-block;
+ background-color: #eeeeee;
+ width: 90%;
+
+ margin: 5px auto;
+ color: #333333;
+ /*首行空两格   两个单词之间使用-分割*/
+ text-indent: 2em;
+ margin: 5px 5px;
+ /* 设置内部填充*/
+ padding: 200px 5px;
+
+ /* margin 通过设置距离上下固定值  距离左右auto方式实现水平居中
+ 需要四个参数  上 右  下  左
+ 如果只是设置两个参数  那么第一个表示上下值 第二个表示左右值
+
+*/
+
+}
+
+.skills{
+
+  font-size: 40px;
+  color: blue;
+}
+
+section{
+
+ height: 500px;
+ border-style: solid;
+ border-width: 2px;
+ border-color: #eee;
+ margin: 10px 10px;
+
+
+}
+
+a{
+
+color: #fff;
+text-decoration: none;
+
+
+
+}
+nav {
+text-align: center;
+
+}
+
+
+nav a{
+
+display: inline-block;
+background-color:  #ce5d1b;
+height: 30px;
+line-height: 30px;
+width: 122px;
+font-size: 14px;
+
+
+}
